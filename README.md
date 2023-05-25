@@ -2,9 +2,12 @@
  The Big Brother is a simple file integrity monitoring tool written with python. The tool scans all the files in the given path continuously and warns the user for any changes. The tool also saves all the events in a log file. The tool uses sha256 hashing algorithm by default. md5, sha1, sha224, sha384 and sha512 are also supported. User can specify these other hashing algorithms.
 
 ## Installation
-This tool requires Python. You have to install Python in your system first.
+This tool requires Python. You have to install Python in your system first. Then clone this repository to your system.
 ### On linux
-```sudo apt get-install python```
+```
+sudo apt get-install python
+git clone https://github.com/gorklav/the-big-brother.git  
+```
 ## Usage
 ```
 python main.py -d PATH
